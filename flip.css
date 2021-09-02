@@ -87,7 +87,7 @@ background-color: linear-gradient(90deg, rgba(183,255,253,1) 9%, rgba(219,255,25
 
 .buttons{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 button{
@@ -118,6 +118,13 @@ button{
 
     .container{
         width: 300px;
+        height: 400px;
+        padding: 20px;
+    }
+    button{
+        width: 100px;
+        padding: 10px 0;
+        margin-bottom: 40px;
     }
 }
 
